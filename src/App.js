@@ -1,11 +1,11 @@
 import React from "react";
-import logSynonym from "./components/logSynonym";
+import logDefinition from "./utils/logDefinition";
 
 function App() {
   return (
     <div className="App">
-      <p onClick={logSynonym}>
-        <span>This</span> <span>is</span> <span>a</span> <span>test</span>.
+      <p onClick={logDefinition}>
+        <span>Long</span> <span>live</span> <span>the</span> <span>king</span>!
       </p>
     </div>
   );
