@@ -1,12 +1,12 @@
 import React from "react";
-import logDefinition from "./utils/logDefinition";
+import AppRouter from "./router/AppRouter";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <p className="word-split" onClick={logDefinition}>
-        This is an example. You are testing.
-      </p>
+      <Navbar />
+      <AppRouter />
     </div>
   );
 }
