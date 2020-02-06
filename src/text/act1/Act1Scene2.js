@@ -3,16 +3,15 @@ import logDefinition from "../../utils/logDefinition";
 
 const Act1Scene2 = () => (
   <div>
+    <h2>Act I</h2>
     <h3>SCENE II. Elsinore. A room of state in the Castle.</h3>
 
-    <p className="word-split stage-direction" onClick={logDefinition}>
-      Enter Claudius King of Denmark, Gertrude the Queen, Hamlet, Polonius,
-      Laertes, Voltemand, Cornelius, Lords and Attendant.
+    <p className="stage-direction">
+      [Enter Claudius King of Denmark, Gertrude the Queen, Hamlet, Polonius,
+      Laertes, Voltemand, Cornelius, Lords and Attendant.]
     </p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      KING.
-    </p>
+    <p className="character-name">KING.</p>
     <p className="word-split" onClick={logDefinition}>
       Though yet of Hamlet our dear brother&rsquo;s death
     </p>
@@ -130,27 +129,18 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       Farewell; and let your haste commend your duty.
     </p>
-    <p className="word-split character-name" onClick={logDefinition}></p>
 
-    <p className="word-split" onClick={logDefinition}>
-      CORNELIUS and VOLTEMAND.
-    </p>
+    <p className="character-name">CORNELIUS and VOLTEMAND.</p>
     <p className="word-split" onClick={logDefinition}>
       In that, and all things, will we show our duty.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      KING.
-    </p>
+    <p className="character-name">KING.</p>
     <p className="word-split" onClick={logDefinition}>
       We doubt it nothing: heartily farewell.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split stage-direction" onClick={logDefinition}>
-      Exeunt Voltemand and Cornelius.
-    </p>
+    <p className="stage-direction">[Exeunt Voltemand and Cornelius.]</p>
 
     <p className="word-split" onClick={logDefinition}>
       And now, Laertes, what&rsquo;s the news with you?
@@ -179,12 +169,9 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       What wouldst thou have, Laertes?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
+    <p className="character-name">LAERTES.</p>
     <p className="word-split" onClick={logDefinition}>
-      LAERTES.
-    </p>
-    <p className="word-split character-name" onClick={logDefinition}>
       Dread my lord,
     </p>
     <p className="word-split" onClick={logDefinition}>
@@ -205,19 +192,13 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       And bow them to your gracious leave and pardon.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split" onClick={logDefinition}>
-      KING.
-    </p>
+    <p className="character-name">KING.</p>
     <p className="word-split" onClick={logDefinition}>
       Have you your father&rsquo;s leave? What says Polonius?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      POLONIUS.
-    </p>
+    <p className="character-name">POLONIUS.</p>
     <p className="word-split" onClick={logDefinition}>
       He hath, my lord, wrung from me my slow leave
     </p>
@@ -230,11 +211,8 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       I do beseech you give him leave to go.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split" onClick={logDefinition}>
-      KING.
-    </p>
+    <p className="character-name">KING.</p>
     <p className="word-split" onClick={logDefinition}>
       Take thy fair hour, Laertes; time be thine,
     </p>
@@ -244,35 +222,23 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       But now, my cousin Hamlet, and my son&mdash;
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
-      [Aside.] A little more than kin, and less than kind.
+      [Aside] A little more than kin, and less than kind.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      KING.
-    </p>
+    <p className="character-name">KING.</p>
     <p className="word-split" onClick={logDefinition}>
       How is it that the clouds still hang on you?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Not so, my lord, I am too much i&rsquo; the sun.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      QUEEN.
-    </p>
+    <p className="character-name">QUEEN.</p>
     <p className="word-split" onClick={logDefinition}>
       Good Hamlet, cast thy nighted colour off,
     </p>
@@ -291,30 +257,21 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       Passing through nature to eternity.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Ay, madam, it is common.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      QUEEN.
-    </p>
+    <p className="character-name">QUEEN.</p>
     <p className="word-split" onClick={logDefinition}>
       If it be,
     </p>
     <p className="word-split" onClick={logDefinition}>
       Why seems it so particular with thee?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Seems, madam! Nay, it is; I know not seems.
     </p>
@@ -348,11 +305,8 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       These but the trappings and the suits of woe.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      KING.
-    </p>
+    <p className="character-name">KING.</p>
     <p className="word-split" onClick={logDefinition}>
       &rsquo;Tis sweet and commendable in your nature, Hamlet,
     </p>
@@ -446,30 +400,21 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       Our chiefest courtier, cousin, and our son.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      QUEEN.
-    </p>
+    <p className="character-name">QUEEN.</p>
     <p className="word-split" onClick={logDefinition}>
       Let not thy mother lose her prayers, Hamlet.
     </p>
     <p className="word-split" onClick={logDefinition}>
       I pray thee stay with us; go not to Wittenberg.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       I shall in all my best obey you, madam.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      KING.
-    </p>
+    <p className="character-name">KING.</p>
     <p className="word-split" onClick={logDefinition}>
       Why, &rsquo;tis a loving and a fair reply.
     </p>
@@ -494,15 +439,10 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       Re-speaking earthly thunder. Come away.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split stage-direction" onClick={logDefinition}>
-      Exeunt all but Hamlet.
-    </p>
+    <p className="stage-direction">[Exeunt all but Hamlet.]</p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       O that this too too solid flesh would melt,
     </p>
@@ -596,34 +536,23 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       But break my heart, for I must hold my tongue.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split stage-direction" onClick={logDefinition}>
-      Enter Horatio, Marcellus and Barnardo.
-    </p>
+    <p className="stage-direction">[Enter Horatio, Marcellus and Barnardo.]</p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       Hail to your lordship!
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       I am glad to see you well:
     </p>
     <p className="word-split" onClick={logDefinition}>
       Horatio, or I do forget myself.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       The same, my lord,
     </p>
@@ -631,9 +560,7 @@ const Act1Scene2 = () => (
       And your poor servant ever.
     </p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Sir, my good friend;
     </p>
@@ -646,38 +573,26 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       Marcellus?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      MARCELLUS.
-    </p>
+    <p className="character-name">MARCELLUS.</p>
     <p className="word-split" onClick={logDefinition}>
       My good lord.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       I am very glad to see you.&mdash;Good even, sir.&mdash;
     </p>
     <p className="word-split" onClick={logDefinition}>
       But what, in faith, make you from Wittenberg?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       A truant disposition, good my lord.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       I would not hear your enemy say so;
     </p>
@@ -696,38 +611,26 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       We&rsquo;ll teach you to drink deep ere you depart.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       My lord, I came to see your father&rsquo;s funeral.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       I prithee do not mock me, fellow-student.
     </p>
     <p className="word-split" onClick={logDefinition}>
       I think it was to see my mother&rsquo;s wedding.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       Indeed, my lord, it follow&rsquo;d hard upon.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Thrift, thrift, Horatio! The funeral bak&rsquo;d meats
     </p>
@@ -743,78 +646,51 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       My father,&mdash;methinks I see my father.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       Where, my lord?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       In my mind&rsquo;s eye, Horatio.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       I saw him once; he was a goodly king.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       He was a man, take him for all in all,
     </p>
     <p className="word-split" onClick={logDefinition}>
       I shall not look upon his like again.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       My lord, I think I saw him yesternight.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Saw? Who?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       My lord, the King your father.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       The King my father!
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       Season your admiration for a while
     </p>
@@ -827,19 +703,13 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       This marvel to you.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       For God&rsquo;s love let me hear.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       Two nights together had these gentlemen,
     </p>
@@ -891,35 +761,23 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       These hands are not more like.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       But where was this?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      MARCELLUS.
-    </p>
+    <p className="character-name">MARCELLUS.</p>
     <p className="word-split" onClick={logDefinition}>
       My lord, upon the platform where we watch.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Did you not speak to it?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       My lord, I did;
     </p>
@@ -941,19 +799,13 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       And vanish&rsquo;d from our sight.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       &rsquo;Tis very strange.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       As I do live, my honour&rsquo;d lord, &rsquo;tis true;
     </p>
@@ -963,212 +815,137 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       To let you know of it.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Indeed, indeed, sirs, but this troubles me.
     </p>
     <p className="word-split" onClick={logDefinition}>
       Hold you the watch tonight?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      Mar. and BARNARDO.
-    </p>
+    <p className="character-name">Mar. and BARNARDO.</p>
     <p className="word-split" onClick={logDefinition}>
       We do, my lord.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Arm&rsquo;d, say you?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      BOTH.
-    </p>
+    <p className="character-name">BOTH.</p>
     <p className="word-split" onClick={logDefinition}>
       Arm&rsquo;d, my lord.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       From top to toe?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      BOTH.
-    </p>
+    <p className="character-name">BOTH.</p>
     <p className="word-split" onClick={logDefinition}>
       My lord, from head to foot.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Then saw you not his face?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       O yes, my lord, he wore his beaver up.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       What, look&rsquo;d he frowningly?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       A countenance more in sorrow than in anger.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Pale, or red?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       Nay, very pale.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       And fix&rsquo;d his eyes upon you?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       Most constantly.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       I would I had been there.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       It would have much amaz&rsquo;d you.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Very like, very like. Stay&rsquo;d it long?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       While one with moderate haste might tell a hundred.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      MARCELLUS and BARNARDO.
-    </p>
+    <p className="character-name">MARCELLUS and BARNARDO.</p>
     <p className="word-split" onClick={logDefinition}>
       Longer, longer.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       Not when I saw&rsquo;t.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       His beard was grizzled, no?
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       It was, as I have seen it in his life,
     </p>
     <p className="word-split" onClick={logDefinition}>
       A sable silver&rsquo;d.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       I will watch tonight;
     </p>
     <p className="word-split" onClick={logDefinition}>
       Perchance &rsquo;twill walk again.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HORATIO.
-    </p>
+    <p className="character-name">HORATIO.</p>
     <p className="word-split" onClick={logDefinition}>
       I warrant you it will.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       If it assume my noble father&rsquo;s person,
     </p>
@@ -1199,27 +976,18 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       I&rsquo;ll visit you.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      ALL.
-    </p>
+    <p className="character-name">ALL.</p>
     <p className="word-split" onClick={logDefinition}>
       Our duty to your honour.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split character-name" onClick={logDefinition}>
-      HAMLET.
-    </p>
+    <p className="character-name">HAMLET.</p>
     <p className="word-split" onClick={logDefinition}>
       Your loves, as mine to you: farewell.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split stage-direction" onClick={logDefinition}>
-      Exeunt Horatio, Marcellus and Barnardo.
-    </p>
+    <p className="stage-direction">[Exeunt Horatio, Marcellus and Barnardo.]</p>
 
     <p className="word-split" onClick={logDefinition}>
       My father&rsquo;s spirit in arms! All is not well;
@@ -1233,11 +1001,8 @@ const Act1Scene2 = () => (
     <p className="word-split" onClick={logDefinition}>
       Though all the earth o&rsquo;erwhelm them, to men&rsquo;s eyes.
     </p>
-    <p className="word-split" onClick={logDefinition}></p>
 
-    <p className="word-split stage-direction" onClick={logDefinition}>
-      Exit.
-    </p>
+    <p className="stage-direction">[Exit.]</p>
   </div>
 );
 
