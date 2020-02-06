@@ -4,7 +4,7 @@ import getDefinitionText from "./getDefinitionText";
 const getDefinition = async (e, setState) => {
   e.preventDefault();
   if (e.target.nodeName === "SPAN") {
-    const word = e.target.innerText.toLowerCase();
+    const word = e.target.innerText.toLowerCase().replace("?", "");
     try {
       const response = await axios.get(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${process.env.REACT_APP_KEY}
       `);
