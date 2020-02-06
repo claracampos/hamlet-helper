@@ -9,16 +9,19 @@ const TextPage = props => {
 
   return (
     <div className="d-flex flex-column vh-100">
-      <div className="main-text-container overflow-auto p-2">
+      <div className="overflow-auto h-50 p-2">
         <div
           onTouchStart={e => {
+            getDefinition(e, setDictionary);
+          }}
+          onClick={e => {
             getDefinition(e, setDictionary);
           }}
         >
           {props.scene}
         </div>
       </div>
-      <footer className="footer mt-auto dictionary-container overflow-auto bg-light p-2">
+      <footer className="footer mt-auto h-50 overflow-auto bg-light p-2">
         <p>{dictionary.definition}</p>
         {dictionary.definition && (
           <a
