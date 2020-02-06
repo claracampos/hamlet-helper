@@ -6,11 +6,24 @@ const getDefinitionText = response => {
       item => item.hwi.hw.toLowerCase() === headword
     );
 
-    const matchingDefinitions = matchingWords.map(item =>
-      item.fl ? `${item.fl} = ${item.shortdef[0]}` : `${item.cxs[0].cxl}`
-    );
+    const offensiveContent = matchingWords.find(item => item.meta.offensive);
 
-    const definitionText = headword + ": " + matchingDefinitions;
+    if (offensiveContent) {
+      return `${headword} - the list of definitions for this word includes sensitive or offensive content. Click "View More" to read definitions.`;
+    }
+
+    const matchingDefinitions = matchingWords.map(item => {
+      if (item.fl) {
+        return item.shortdef[0]
+          ? ` ${item.fl}: ${item.shortdef[0]}`
+          : ` ${item.fl}: ${item.cxs[0].cxl} ${item.cxs[0].cxtis[0].cxt}`;
+      }
+      return item.cxs[0].cxtis[0].cxt
+        ? ` ${item.cxs[0].cxl} ${item.cxs[0].cxtis[0].cxt}`
+        : ` ${item.cxs[0].cxl}`;
+    });
+
+    const definitionText = `${headword} - ${matchingDefinitions}`;
     return definitionText;
   }
 };
