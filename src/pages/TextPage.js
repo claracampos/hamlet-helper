@@ -11,7 +11,7 @@ const TextPage = props => {
     <div className="d-flex flex-column vh-100">
       <div className="main-text-container overflow-auto p-2">
         <div
-          onClick={e => {
+          onTouchStart={e => {
             getDefinition(e, setDictionary);
           }}
         >
