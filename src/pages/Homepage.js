@@ -5,7 +5,7 @@ const Homepage = () => (
   <div>
     <h1>Hamlet Helper</h1>
     <h2>Description here</h2>
-    <Link>Dramatis Personae</Link>
+    <p>Dramatis Personae</p>
     <p>ACT I</p>
     <Link to="/act1/scene1">
       Scene I. Elsinore. A platform before the Castle.
