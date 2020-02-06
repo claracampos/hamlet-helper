@@ -1,968 +1,1242 @@
 import React from "react";
+import logDefinition from "../../utils/logDefinition";
 
 const Act1Scene2 = () => (
   <div>
     <h3>SCENE II. Elsinore. A room of state in the Castle.</h3>
 
-    <p>
-      <i>
-        Enter Claudius King of Denmark, Gertrude the Queen, Hamlet, Polonius,
-        Laertes, Voltemand, Cornelius, Lords and Attendant.
-      </i>
+    <p className="word-split stage-direction" onClick={logDefinition}>
+      Enter Claudius King of Denmark, Gertrude the Queen, Hamlet, Polonius,
+      Laertes, Voltemand, Cornelius, Lords and Attendant.
     </p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       KING.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Though yet of Hamlet our dear brother&rsquo;s death
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       The memory be green, and that it us befitted
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To bear our hearts in grief, and our whole kingdom
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To be contracted in one brow of woe;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Yet so far hath discretion fought with nature
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       That we with wisest sorrow think on him,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Together with remembrance of ourselves.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Therefore our sometime sister, now our queen,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Th&rsquo;imperial jointress to this warlike state,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Have we, as &rsquo;twere with a defeated joy,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       With one auspicious and one dropping eye,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       With mirth in funeral, and with dirge in marriage,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       In equal scale weighing delight and dole,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Taken to wife; nor have we herein barr&rsquo;d
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Your better wisdoms, which have freely gone
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       With this affair along. For all, our thanks.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Now follows, that you know young Fortinbras,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Holding a weak supposal of our worth,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Or thinking by our late dear brother&rsquo;s death
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Our state to be disjoint and out of frame,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Colleagued with this dream of his advantage,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       He hath not fail&rsquo;d to pester us with message,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Importing the surrender of those lands
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Lost by his father, with all bonds of law,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To our most valiant brother. So much for him.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Now for ourself and for this time of meeting:
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Thus much the business is: we have here writ
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To Norway, uncle of young Fortinbras,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Who, impotent and bed-rid, scarcely hears
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Of this his nephew&rsquo;s purpose, to suppress
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       His further gait herein; in that the levies,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       The lists, and full proportions are all made
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Out of his subject: and we here dispatch
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       You, good Cornelius, and you, Voltemand,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       For bearers of this greeting to old Norway,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Giving to you no further personal power
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To business with the King, more than the scope
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Of these dilated articles allow.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Farewell; and let your haste commend your duty.
-      <br />
     </p>
+    <p className="word-split character-name" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split" onClick={logDefinition}>
       CORNELIUS and VOLTEMAND.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       In that, and all things, will we show our duty.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       KING.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       We doubt it nothing: heartily farewell.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
+
+    <p className="word-split stage-direction" onClick={logDefinition}>
+      Exeunt Voltemand and Cornelius.
     </p>
 
-    <p>
-      <i>Exeunt Voltemand and Cornelius.</i>
-    </p>
-
-    <p>
+    <p className="word-split" onClick={logDefinition}>
       And now, Laertes, what&rsquo;s the news with you?
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       You told us of some suit. What is&rsquo;t, Laertes?
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       You cannot speak of reason to the Dane,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And lose your voice. What wouldst thou beg, Laertes,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       That shall not be my offer, not thy asking?
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       The head is not more native to the heart,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       The hand more instrumental to the mouth,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Than is the throne of Denmark to thy father.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       What wouldst thou have, Laertes?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split" onClick={logDefinition}>
       LAERTES.
-      <br />
+    </p>
+    <p className="word-split character-name" onClick={logDefinition}>
       Dread my lord,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Your leave and favour to return to France,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       From whence though willingly I came to Denmark
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To show my duty in your coronation;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Yet now I must confess, that duty done,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My thoughts and wishes bend again toward France,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And bow them to your gracious leave and pardon.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split" onClick={logDefinition}>
       KING.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Have you your father&rsquo;s leave? What says Polonius?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       POLONIUS.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       He hath, my lord, wrung from me my slow leave
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       By laboursome petition; and at last
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Upon his will I seal&rsquo;d my hard consent.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I do beseech you give him leave to go.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split" onClick={logDefinition}>
       KING.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Take thy fair hour, Laertes; time be thine,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And thy best graces spend it at thy will!
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But now, my cousin Hamlet, and my son&mdash;
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
-      <i>[Aside.]</i> A little more than kin, and less than kind.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}>
+      [Aside.] A little more than kin, and less than kind.
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       KING.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       How is it that the clouds still hang on you?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Not so, my lord, I am too much i&rsquo; the sun.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       QUEEN.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Good Hamlet, cast thy nighted colour off,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And let thine eye look like a friend on Denmark.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Do not for ever with thy vailed lids
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Seek for thy noble father in the dust.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Thou know&rsquo;st &rsquo;tis common, all that lives must die,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Passing through nature to eternity.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Ay, madam, it is common.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       QUEEN.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       If it be,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Why seems it so particular with thee?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Seems, madam! Nay, it is; I know not seems.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       &rsquo;Tis not alone my inky cloak, good mother,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Nor customary suits of solemn black,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Nor windy suspiration of forc&rsquo;d breath,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       No, nor the fruitful river in the eye,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Nor the dejected haviour of the visage,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Together with all forms, moods, shows of grief,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       That can denote me truly. These indeed seem,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       For they are actions that a man might play;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But I have that within which passeth show;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       These but the trappings and the suits of woe.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       KING.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       &rsquo;Tis sweet and commendable in your nature, Hamlet,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To give these mourning duties to your father;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But you must know, your father lost a father,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       That father lost, lost his, and the survivor bound
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       In filial obligation, for some term
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To do obsequious sorrow. But to persevere
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       In obstinate condolement is a course
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Of impious stubbornness. &rsquo;Tis unmanly grief,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       It shows a will most incorrect to heaven,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       A heart unfortified, a mind impatient,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       An understanding simple and unschool&rsquo;d;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       For what we know must be, and is as common
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       As any the most vulgar thing to sense,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Why should we in our peevish opposition
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Take it to heart? Fie, &rsquo;tis a fault to heaven,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       A fault against the dead, a fault to nature,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To reason most absurd, whose common theme
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Is death of fathers, and who still hath cried,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       From the first corse till he that died today,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       &lsquo;This must be so.&rsquo; We pray you throw to earth
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       This unprevailing woe, and think of us
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       As of a father; for let the world take note
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       You are the most immediate to our throne,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And with no less nobility of love
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Than that which dearest father bears his son
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Do I impart toward you. For your intent
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       In going back to school in Wittenberg,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       It is most retrograde to our desire:
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And we beseech you bend you to remain
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Here in the cheer and comfort of our eye,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Our chiefest courtier, cousin, and our son.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       QUEEN.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Let not thy mother lose her prayers, Hamlet.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I pray thee stay with us; go not to Wittenberg.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I shall in all my best obey you, madam.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       KING.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Why, &rsquo;tis a loving and a fair reply.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Be as ourself in Denmark. Madam, come;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       This gentle and unforc&rsquo;d accord of Hamlet
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Sits smiling to my heart; in grace whereof,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       No jocund health that Denmark drinks today
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But the great cannon to the clouds shall tell,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And the King&rsquo;s rouse the heaven shall bruit again,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Re-speaking earthly thunder. Come away.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
+
+    <p className="word-split stage-direction" onClick={logDefinition}>
+      Exeunt all but Hamlet.
     </p>
 
-    <p>
-      <i>Exeunt all but Hamlet.</i>
-    </p>
-
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       O that this too too solid flesh would melt,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Thaw, and resolve itself into a dew!
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Or that the Everlasting had not fix&rsquo;d
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       His canon &rsquo;gainst self-slaughter. O God! O God!
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       How weary, stale, flat, and unprofitable
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Seem to me all the uses of this world!
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Fie on&rsquo;t! Oh fie! &rsquo;tis an unweeded garden
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       That grows to seed; things rank and gross in nature
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Possess it merely. That it should come to this!
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But two months dead&mdash;nay, not so much, not two:
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       So excellent a king; that was to this
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Hyperion to a satyr; so loving to my mother,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       That he might not beteem the winds of heaven
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Visit her face too roughly. Heaven and earth!
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Must I remember? Why, she would hang on him
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       As if increase of appetite had grown
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       By what it fed on; and yet, within a month&mdash;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Let me not think on&rsquo;t&mdash;Frailty, thy name is woman!
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       A little month, or ere those shoes were old
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       With which she followed my poor father&rsquo;s body
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Like Niobe, all tears.&mdash;Why she, even she&mdash;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       O God! A beast that wants discourse of reason
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Would have mourn&rsquo;d longer,&mdash;married with mine uncle,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My father&rsquo;s brother; but no more like my father
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Than I to Hercules. Within a month?
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Ere yet the salt of most unrighteous tears
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Had left the flushing in her galled eyes,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       She married. O most wicked speed, to post
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       With such dexterity to incestuous sheets!
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       It is not, nor it cannot come to good.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But break my heart, for I must hold my tongue.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
+
+    <p className="word-split stage-direction" onClick={logDefinition}>
+      Enter Horatio, Marcellus and Barnardo.
     </p>
 
-    <p>
-      <i>Enter Horatio, Marcellus and Barnardo.</i>
-    </p>
-
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Hail to your lordship!
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
-      I am glad to see you well:
-      <br />
-      Horatio, or I do forget myself.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}>
+      I am glad to see you well:
+    </p>
+    <p className="word-split" onClick={logDefinition}>
+      Horatio, or I do forget myself.
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       The same, my lord,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And your poor servant ever.
     </p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Sir, my good friend;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I&rsquo;ll change that name with you:
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And what make you from Wittenberg, Horatio?&mdash;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Marcellus?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       MARCELLUS.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My good lord.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I am very glad to see you.&mdash;Good even, sir.&mdash;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But what, in faith, make you from Wittenberg?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       A truant disposition, good my lord.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I would not hear your enemy say so;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Nor shall you do my ear that violence,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To make it truster of your own report
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Against yourself. I know you are no truant.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But what is your affair in Elsinore?
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       We&rsquo;ll teach you to drink deep ere you depart.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My lord, I came to see your father&rsquo;s funeral.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I prithee do not mock me, fellow-student.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I think it was to see my mother&rsquo;s wedding.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Indeed, my lord, it follow&rsquo;d hard upon.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Thrift, thrift, Horatio! The funeral bak&rsquo;d meats
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Did coldly furnish forth the marriage tables.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Would I had met my dearest foe in heaven
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Or ever I had seen that day, Horatio.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My father,&mdash;methinks I see my father.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Where, my lord?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       In my mind&rsquo;s eye, Horatio.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I saw him once; he was a goodly king.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       He was a man, take him for all in all,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I shall not look upon his like again.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My lord, I think I saw him yesternight.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Saw? Who?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My lord, the King your father.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       The King my father!
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Season your admiration for a while
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       With an attent ear, till I may deliver
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Upon the witness of these gentlemen
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       This marvel to you.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       For God&rsquo;s love let me hear.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Two nights together had these gentlemen,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Marcellus and Barnardo, on their watch
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       In the dead waste and middle of the night,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Been thus encounter&rsquo;d. A figure like your father,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Armed at point exactly, cap-à-pie,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Appears before them, and with solemn march
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Goes slow and stately by them: thrice he walk&rsquo;d
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       By their oppress&rsquo;d and fear-surprised eyes,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Within his truncheon&rsquo;s length; whilst they, distill&rsquo;d
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Almost to jelly with the act of fear,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Stand dumb, and speak not to him. This to me
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       In dreadful secrecy impart they did,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And I with them the third night kept the watch,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Where, as they had deliver&rsquo;d, both in time,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Form of the thing, each word made true and good,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       The apparition comes. I knew your father;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       These hands are not more like.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But where was this?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       MARCELLUS.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My lord, upon the platform where we watch.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Did you not speak to it?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My lord, I did;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But answer made it none: yet once methought
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       It lifted up it head, and did address
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Itself to motion, like as it would speak.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       But even then the morning cock crew loud,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And at the sound it shrunk in haste away,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And vanish&rsquo;d from our sight.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       &rsquo;Tis very strange.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       As I do live, my honour&rsquo;d lord, &rsquo;tis true;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And we did think it writ down in our duty
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       To let you know of it.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Indeed, indeed, sirs, but this troubles me.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Hold you the watch tonight?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       Mar. and BARNARDO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       We do, my lord.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Arm&rsquo;d, say you?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
-      Both.
-      <br />
-      Arm&rsquo;d, my lord.
-      <br />
-    </p>
-
-    <p>
-      HAMLET.
-      <br />
-      From top to toe?
-      <br />
-    </p>
-
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       BOTH.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
+      Arm&rsquo;d, my lord.
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
+
+    <p className="word-split character-name" onClick={logDefinition}>
+      HAMLET.
+    </p>
+    <p className="word-split" onClick={logDefinition}>
+      From top to toe?
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
+
+    <p className="word-split character-name" onClick={logDefinition}>
+      BOTH.
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       My lord, from head to foot.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Then saw you not his face?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       O yes, my lord, he wore his beaver up.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       What, look&rsquo;d he frowningly?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       A countenance more in sorrow than in anger.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Pale, or red?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Nay, very pale.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And fix&rsquo;d his eyes upon you?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Most constantly.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I would I had been there.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       It would have much amaz&rsquo;d you.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Very like, very like. Stay&rsquo;d it long?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       While one with moderate haste might tell a hundred.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       MARCELLUS and BARNARDO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Longer, longer.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Not when I saw&rsquo;t.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       His beard was grizzled, no?
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       It was, as I have seen it in his life,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       A sable silver&rsquo;d.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I will watch tonight;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Perchance &rsquo;twill walk again.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HORATIO.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I warrant you it will.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       If it assume my noble father&rsquo;s person,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I&rsquo;ll speak to it, though hell itself should gape
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And bid me hold my peace. I pray you all,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       If you have hitherto conceal&rsquo;d this sight,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Let it be tenable in your silence still;
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       And whatsoever else shall hap tonight,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Give it an understanding, but no tongue.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I will requite your loves. So, fare ye well.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Upon the platform &rsquo;twixt eleven and twelve,
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       I&rsquo;ll visit you.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       ALL.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Our duty to your honour.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
+    <p className="word-split character-name" onClick={logDefinition}>
       HAMLET.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}>
       Your loves, as mine to you: farewell.
-      <br />
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
+
+    <p className="word-split stage-direction" onClick={logDefinition}>
+      Exeunt Horatio, Marcellus and Barnardo.
     </p>
 
-    <p>
-      <i>Exeunt Horatio, Marcellus and Barnardo.</i>
-    </p>
-
-    <p>
+    <p className="word-split" onClick={logDefinition}>
       My father&rsquo;s spirit in arms! All is not well;
-      <br />
-      I doubt some foul play: would the night were come!
-      <br />
-      Till then sit still, my soul: foul deeds will rise,
-      <br />
-      Though all the earth o&rsquo;erwhelm them, to men&rsquo;s eyes.
-      <br />
     </p>
+    <p className="word-split" onClick={logDefinition}>
+      I doubt some foul play: would the night were come!
+    </p>
+    <p className="word-split" onClick={logDefinition}>
+      Till then sit still, my soul: foul deeds will rise,
+    </p>
+    <p className="word-split" onClick={logDefinition}>
+      Though all the earth o&rsquo;erwhelm them, to men&rsquo;s eyes.
+    </p>
+    <p className="word-split" onClick={logDefinition}></p>
 
-    <p>
-      <i>Exit.</i>
+    <p className="word-split stage-direction" onClick={logDefinition}>
+      Exit.
     </p>
   </div>
 );
