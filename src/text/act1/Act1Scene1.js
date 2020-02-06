@@ -2,7 +2,7 @@ import React from "react";
 
 const Act1Scene1 = () => (
   <div>
-    <h2>Act I</h2>
+    <h2>ACT I</h2>
     <h3>SCENE I. Elsinore. A platform before the Castle.</h3>
 
     <p className="stage-direction">
@@ -120,7 +120,7 @@ const Act1Scene1 = () => (
       Had made his course t'illume that part of heaven
     </p>
     <p className="word-split">Where now it burns, Marcellus and myself,</p>
-    <p className="word-split">The bell then beating one&mdash;</p>
+    <p className="word-split">The bell then beating one --</p>
 
     <p className="character-name">MARCELLUS.</p>
     <p className="word-split">

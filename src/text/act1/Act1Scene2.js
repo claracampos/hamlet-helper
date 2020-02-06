@@ -2,7 +2,7 @@ import React from "react";
 
 const Act1Scene2 = () => (
   <div>
-    <h2>Act I</h2>
+    <h2>ACT I</h2>
     <h3>SCENE II. Elsinore. A room of state in the Castle.</h3>
 
     <p className="stage-direction">
@@ -11,9 +11,7 @@ const Act1Scene2 = () => (
     </p>
 
     <p className="character-name">KING.</p>
-    <p className="word-split">
-      Though yet of Hamlet our dear brother&rsquo;s death
-    </p>
+    <p className="word-split">Though yet of Hamlet our dear brother's death</p>
     <p className="word-split">The memory be green, and that it us befitted</p>
     <p className="word-split">
       To bear our hearts in grief, and our whole kingdom
@@ -23,28 +21,22 @@ const Act1Scene2 = () => (
     <p className="word-split">That we with wisest sorrow think on him,</p>
     <p className="word-split">Together with remembrance of ourselves.</p>
     <p className="word-split">Therefore our sometime sister, now our queen,</p>
-    <p className="word-split">
-      Th&rsquo;imperial jointress to this warlike state,
-    </p>
-    <p className="word-split">Have we, as &rsquo;twere with a defeated joy,</p>
+    <p className="word-split">Th'imperial jointress to this warlike state,</p>
+    <p className="word-split">Have we, as 'twere with a defeated joy,</p>
     <p className="word-split">With one auspicious and one dropping eye,</p>
     <p className="word-split">
       With mirth in funeral, and with dirge in marriage,
     </p>
     <p className="word-split">In equal scale weighing delight and dole,</p>
-    <p className="word-split">Taken to wife; nor have we herein barr&rsquo;d</p>
+    <p className="word-split">Taken to wife; nor have we herein barr'd</p>
     <p className="word-split">Your better wisdoms, which have freely gone</p>
     <p className="word-split">With this affair along. For all, our thanks.</p>
     <p className="word-split">Now follows, that you know young Fortinbras,</p>
     <p className="word-split">Holding a weak supposal of our worth,</p>
-    <p className="word-split">
-      Or thinking by our late dear brother&rsquo;s death
-    </p>
+    <p className="word-split">Or thinking by our late dear brother's death</p>
     <p className="word-split">Our state to be disjoint and out of frame,</p>
     <p className="word-split">Colleagued with this dream of his advantage,</p>
-    <p className="word-split">
-      He hath not fail&rsquo;d to pester us with message,
-    </p>
+    <p className="word-split">He hath not fail'd to pester us with message,</p>
     <p className="word-split">Importing the surrender of those lands</p>
     <p className="word-split">Lost by his father, with all bonds of law,</p>
     <p className="word-split">To our most valiant brother. So much for him.</p>
@@ -52,9 +44,7 @@ const Act1Scene2 = () => (
     <p className="word-split">Thus much the business is: we have here writ</p>
     <p className="word-split">To Norway, uncle of young Fortinbras,</p>
     <p className="word-split">Who, impotent and bed-rid, scarcely hears</p>
-    <p className="word-split">
-      Of this his nephew&rsquo;s purpose, to suppress
-    </p>
+    <p className="word-split">Of this his nephew's purpose, to suppress</p>
     <p className="word-split">His further gait herein; in that the levies,</p>
     <p className="word-split">The lists, and full proportions are all made</p>
     <p className="word-split">Out of his subject: and we here dispatch</p>
@@ -77,12 +67,8 @@ const Act1Scene2 = () => (
 
     <p className="stage-direction">[Exeunt Voltemand and Cornelius.]</p>
 
-    <p className="word-split">
-      And now, Laertes, what&rsquo;s the news with you?
-    </p>
-    <p className="word-split">
-      You told us of some suit. What is&rsquo;t, Laertes?
-    </p>
+    <p className="word-split">And now, Laertes, what's the news with you?</p>
+    <p className="word-split">You told us of some suit. What is't, Laertes?</p>
     <p className="word-split">You cannot speak of reason to the Dane,</p>
     <p className="word-split">
       And lose your voice. What wouldst thou beg, Laertes,
@@ -108,19 +94,19 @@ const Act1Scene2 = () => (
 
     <p className="character-name">KING.</p>
     <p className="word-split">
-      Have you your father&rsquo;s leave? What says Polonius?
+      Have you your father's leave? What says Polonius?
     </p>
 
     <p className="character-name">POLONIUS.</p>
     <p className="word-split">He hath, my lord, wrung from me my slow leave</p>
     <p className="word-split">By laboursome petition; and at last</p>
-    <p className="word-split">Upon his will I seal&rsquo;d my hard consent.</p>
+    <p className="word-split">Upon his will I seal'd my hard consent.</p>
     <p className="word-split">I do beseech you give him leave to go.</p>
 
     <p className="character-name">KING.</p>
     <p className="word-split">Take thy fair hour, Laertes; time be thine,</p>
     <p className="word-split">And thy best graces spend it at thy will!</p>
-    <p className="word-split">But now, my cousin Hamlet, and my son&mdash;</p>
+    <p className="word-split">But now, my cousin Hamlet, and my son --</p>
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">
@@ -131,9 +117,7 @@ const Act1Scene2 = () => (
     <p className="word-split">How is it that the clouds still hang on you?</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">
-      Not so, my lord, I am too much i&rsquo; the sun.
-    </p>
+    <p className="word-split">Not so, my lord, I am too much i' the sun.</p>
 
     <p className="character-name">QUEEN.</p>
     <p className="word-split">Good Hamlet, cast thy nighted colour off,</p>
@@ -143,7 +127,7 @@ const Act1Scene2 = () => (
     <p className="word-split">Do not for ever with thy vailed lids</p>
     <p className="word-split">Seek for thy noble father in the dust.</p>
     <p className="word-split">
-      Thou know&rsquo;st &rsquo;tis common, all that lives must die,
+      Thou know'st 'tis common, all that lives must die,
     </p>
     <p className="word-split">Passing through nature to eternity.</p>
 
@@ -156,11 +140,9 @@ const Act1Scene2 = () => (
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">Seems, madam! Nay, it is; I know not seems.</p>
-    <p className="word-split">
-      &rsquo;Tis not alone my inky cloak, good mother,
-    </p>
+    <p className="word-split">'Tis not alone my inky cloak, good mother,</p>
     <p className="word-split">Nor customary suits of solemn black,</p>
-    <p className="word-split">Nor windy suspiration of forc&rsquo;d breath,</p>
+    <p className="word-split">Nor windy suspiration of forc'd breath,</p>
     <p className="word-split">No, nor the fruitful river in the eye,</p>
     <p className="word-split">Nor the dejected haviour of the visage,</p>
     <p className="word-split">
@@ -173,7 +155,7 @@ const Act1Scene2 = () => (
 
     <p className="character-name">KING.</p>
     <p className="word-split">
-      &rsquo;Tis sweet and commendable in your nature, Hamlet,
+      'Tis sweet and commendable in your nature, Hamlet,
     </p>
     <p className="word-split">To give these mourning duties to your father;</p>
     <p className="word-split">But you must know, your father lost a father,</p>
@@ -183,24 +165,20 @@ const Act1Scene2 = () => (
     <p className="word-split">In filial obligation, for some term</p>
     <p className="word-split">To do obsequious sorrow. But to persevere</p>
     <p className="word-split">In obstinate condolement is a course</p>
-    <p className="word-split">
-      Of impious stubbornness. &rsquo;Tis unmanly grief,
-    </p>
+    <p className="word-split">Of impious stubbornness. 'Tis unmanly grief,</p>
     <p className="word-split">It shows a will most incorrect to heaven,</p>
     <p className="word-split">A heart unfortified, a mind impatient,</p>
-    <p className="word-split">An understanding simple and unschool&rsquo;d;</p>
+    <p className="word-split">An understanding simple and unschool'd;</p>
     <p className="word-split">For what we know must be, and is as common</p>
     <p className="word-split">As any the most vulgar thing to sense,</p>
     <p className="word-split">Why should we in our peevish opposition</p>
-    <p className="word-split">
-      Take it to heart? Fie, &rsquo;tis a fault to heaven,
-    </p>
+    <p className="word-split">Take it to heart? Fie, 'tis a fault to heaven,</p>
     <p className="word-split">A fault against the dead, a fault to nature,</p>
     <p className="word-split">To reason most absurd, whose common theme</p>
     <p className="word-split">Is death of fathers, and who still hath cried,</p>
     <p className="word-split">From the first corse till he that died today,</p>
     <p className="word-split">
-      &lsquo;This must be so.&rsquo; We pray you throw to earth
+      &lsquo;This must be so.' We pray you throw to earth
     </p>
     <p className="word-split">This unprevailing woe, and think of us</p>
     <p className="word-split">As of a father; for let the world take note</p>
@@ -224,16 +202,14 @@ const Act1Scene2 = () => (
     <p className="word-split">I shall in all my best obey you, madam.</p>
 
     <p className="character-name">KING.</p>
-    <p className="word-split">Why, &rsquo;tis a loving and a fair reply.</p>
+    <p className="word-split">Why, 'tis a loving and a fair reply.</p>
     <p className="word-split">Be as ourself in Denmark. Madam, come;</p>
-    <p className="word-split">
-      This gentle and unforc&rsquo;d accord of Hamlet
-    </p>
+    <p className="word-split">This gentle and unforc'd accord of Hamlet</p>
     <p className="word-split">Sits smiling to my heart; in grace whereof,</p>
     <p className="word-split">No jocund health that Denmark drinks today</p>
     <p className="word-split">But the great cannon to the clouds shall tell,</p>
     <p className="word-split">
-      And the King&rsquo;s rouse the heaven shall bruit again,
+      And the King's rouse the heaven shall bruit again,
     </p>
     <p className="word-split">Re-speaking earthly thunder. Come away.</p>
 
@@ -242,15 +218,13 @@ const Act1Scene2 = () => (
     <p className="character-name">HAMLET.</p>
     <p className="word-split">O that this too too solid flesh would melt,</p>
     <p className="word-split">Thaw, and resolve itself into a dew!</p>
-    <p className="word-split">Or that the Everlasting had not fix&rsquo;d</p>
+    <p className="word-split">Or that the Everlasting had not fix'd</p>
     <p className="word-split">
-      His canon &rsquo;gainst self-slaughter. O God! O God!
+      His canon 'gainst self-slaughter. O God! O God!
     </p>
     <p className="word-split">How weary, stale, flat, and unprofitable</p>
     <p className="word-split">Seem to me all the uses of this world!</p>
-    <p className="word-split">
-      Fie on&rsquo;t! Oh fie! &rsquo;tis an unweeded garden
-    </p>
+    <p className="word-split">Fie on't! Oh fie! 'tis an unweeded garden</p>
     <p className="word-split">
       That grows to seed; things rank and gross in nature
     </p>
@@ -258,7 +232,7 @@ const Act1Scene2 = () => (
       Possess it merely. That it should come to this!
     </p>
     <p className="word-split">
-      But two months dead&mdash;nay, not so much, not two:
+      But two months dead --nay, not so much, not two:
     </p>
     <p className="word-split">So excellent a king; that was to this</p>
     <p className="word-split">Hyperion to a satyr; so loving to my mother,</p>
@@ -266,25 +240,19 @@ const Act1Scene2 = () => (
     <p className="word-split">Visit her face too roughly. Heaven and earth!</p>
     <p className="word-split">Must I remember? Why, she would hang on him</p>
     <p className="word-split">As if increase of appetite had grown</p>
+    <p className="word-split">By what it fed on; and yet, within a month --</p>
     <p className="word-split">
-      By what it fed on; and yet, within a month&mdash;
-    </p>
-    <p className="word-split">
-      Let me not think on&rsquo;t&mdash;Frailty, thy name is woman!
+      Let me not think on't --Frailty, thy name is woman!
     </p>
     <p className="word-split">A little month, or ere those shoes were old</p>
-    <p className="word-split">
-      With which she followed my poor father&rsquo;s body
-    </p>
-    <p className="word-split">
-      Like Niobe, all tears.&mdash;Why she, even she&mdash;
-    </p>
+    <p className="word-split">With which she followed my poor father's body</p>
+    <p className="word-split">Like Niobe, all tears. --Why she, even she --</p>
     <p className="word-split">O God! A beast that wants discourse of reason</p>
     <p className="word-split">
-      Would have mourn&rsquo;d longer,&mdash;married with mine uncle,
+      Would have mourn'd longer, --married with mine uncle,
     </p>
     <p className="word-split">
-      My father&rsquo;s brother; but no more like my father
+      My father's brother; but no more like my father
     </p>
     <p className="word-split">Than I to Hercules. Within a month?</p>
     <p className="word-split">Ere yet the salt of most unrighteous tears</p>
@@ -309,10 +277,8 @@ const Act1Scene2 = () => (
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">Sir, my good friend;</p>
-    <p className="word-split">I&rsquo;ll change that name with you:</p>
-    <p className="word-split">
-      And what make you from Wittenberg, Horatio?&mdash;
-    </p>
+    <p className="word-split">I'll change that name with you:</p>
+    <p className="word-split">And what make you from Wittenberg, Horatio? --</p>
     <p className="word-split">Marcellus?</p>
 
     <p className="character-name">MARCELLUS.</p>
@@ -320,7 +286,7 @@ const Act1Scene2 = () => (
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">
-      I am very glad to see you.&mdash;Good even, sir.&mdash;
+      I am very glad to see you. --Good even, sir. --
     </p>
     <p className="word-split">But what, in faith, make you from Wittenberg?</p>
 
@@ -333,38 +299,32 @@ const Act1Scene2 = () => (
     <p className="word-split">To make it truster of your own report</p>
     <p className="word-split">Against yourself. I know you are no truant.</p>
     <p className="word-split">But what is your affair in Elsinore?</p>
-    <p className="word-split">
-      We&rsquo;ll teach you to drink deep ere you depart.
-    </p>
+    <p className="word-split">We'll teach you to drink deep ere you depart.</p>
 
     <p className="character-name">HORATIO.</p>
-    <p className="word-split">
-      My lord, I came to see your father&rsquo;s funeral.
-    </p>
+    <p className="word-split">My lord, I came to see your father's funeral.</p>
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">I prithee do not mock me, fellow-student.</p>
-    <p className="word-split">
-      I think it was to see my mother&rsquo;s wedding.
-    </p>
+    <p className="word-split">I think it was to see my mother's wedding.</p>
 
     <p className="character-name">HORATIO.</p>
-    <p className="word-split">Indeed, my lord, it follow&rsquo;d hard upon.</p>
+    <p className="word-split">Indeed, my lord, it follow'd hard upon.</p>
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">
-      Thrift, thrift, Horatio! The funeral bak&rsquo;d meats
+      Thrift, thrift, Horatio! The funeral bak'd meats
     </p>
     <p className="word-split">Did coldly furnish forth the marriage tables.</p>
     <p className="word-split">Would I had met my dearest foe in heaven</p>
     <p className="word-split">Or ever I had seen that day, Horatio.</p>
-    <p className="word-split">My father,&mdash;methinks I see my father.</p>
+    <p className="word-split">My father, --methinks I see my father.</p>
 
     <p className="character-name">HORATIO.</p>
     <p className="word-split">Where, my lord?</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">In my mind&rsquo;s eye, Horatio.</p>
+    <p className="word-split">In my mind's eye, Horatio.</p>
 
     <p className="character-name">HORATIO.</p>
     <p className="word-split">I saw him once; he was a goodly king.</p>
@@ -392,25 +352,23 @@ const Act1Scene2 = () => (
     <p className="word-split">This marvel to you.</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">For God&rsquo;s love let me hear.</p>
+    <p className="word-split">For God's love let me hear.</p>
 
     <p className="character-name">HORATIO.</p>
     <p className="word-split">Two nights together had these gentlemen,</p>
     <p className="word-split">Marcellus and Barnardo, on their watch</p>
     <p className="word-split">In the dead waste and middle of the night,</p>
     <p className="word-split">
-      Been thus encounter&rsquo;d. A figure like your father,
+      Been thus encounter'd. A figure like your father,
     </p>
     <p className="word-split">Armed at point exactly, cap-à-pie,</p>
     <p className="word-split">Appears before them, and with solemn march</p>
     <p className="word-split">
-      Goes slow and stately by them: thrice he walk&rsquo;d
+      Goes slow and stately by them: thrice he walk'd
     </p>
+    <p className="word-split">By their oppress'd and fear-surprised eyes,</p>
     <p className="word-split">
-      By their oppress&rsquo;d and fear-surprised eyes,
-    </p>
-    <p className="word-split">
-      Within his truncheon&rsquo;s length; whilst they, distill&rsquo;d
+      Within his truncheon's length; whilst they, distill'd
     </p>
     <p className="word-split">Almost to jelly with the act of fear,</p>
     <p className="word-split">Stand dumb, and speak not to him. This to me</p>
@@ -418,9 +376,7 @@ const Act1Scene2 = () => (
     <p className="word-split">
       And I with them the third night kept the watch,
     </p>
-    <p className="word-split">
-      Where, as they had deliver&rsquo;d, both in time,
-    </p>
+    <p className="word-split">Where, as they had deliver'd, both in time,</p>
     <p className="word-split">
       Form of the thing, each word made true and good,
     </p>
@@ -443,15 +399,13 @@ const Act1Scene2 = () => (
     <p className="word-split">Itself to motion, like as it would speak.</p>
     <p className="word-split">But even then the morning cock crew loud,</p>
     <p className="word-split">And at the sound it shrunk in haste away,</p>
-    <p className="word-split">And vanish&rsquo;d from our sight.</p>
+    <p className="word-split">And vanish'd from our sight.</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">&rsquo;Tis very strange.</p>
+    <p className="word-split">'Tis very strange.</p>
 
     <p className="character-name">HORATIO.</p>
-    <p className="word-split">
-      As I do live, my honour&rsquo;d lord, &rsquo;tis true;
-    </p>
+    <p className="word-split">As I do live, my honour'd lord, 'tis true;</p>
     <p className="word-split">And we did think it writ down in our duty</p>
     <p className="word-split">To let you know of it.</p>
 
@@ -463,10 +417,10 @@ const Act1Scene2 = () => (
     <p className="word-split">We do, my lord.</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">Arm&rsquo;d, say you?</p>
+    <p className="word-split">Arm'd, say you?</p>
 
     <p className="character-name">BOTH.</p>
-    <p className="word-split">Arm&rsquo;d, my lord.</p>
+    <p className="word-split">Arm'd, my lord.</p>
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">From top to toe?</p>
@@ -481,7 +435,7 @@ const Act1Scene2 = () => (
     <p className="word-split">O yes, my lord, he wore his beaver up.</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">What, look&rsquo;d he frowningly?</p>
+    <p className="word-split">What, look'd he frowningly?</p>
 
     <p className="character-name">HORATIO.</p>
     <p className="word-split">A countenance more in sorrow than in anger.</p>
@@ -493,7 +447,7 @@ const Act1Scene2 = () => (
     <p className="word-split">Nay, very pale.</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">And fix&rsquo;d his eyes upon you?</p>
+    <p className="word-split">And fix'd his eyes upon you?</p>
 
     <p className="character-name">HORATIO.</p>
     <p className="word-split">Most constantly.</p>
@@ -502,10 +456,10 @@ const Act1Scene2 = () => (
     <p className="word-split">I would I had been there.</p>
 
     <p className="character-name">HORATIO.</p>
-    <p className="word-split">It would have much amaz&rsquo;d you.</p>
+    <p className="word-split">It would have much amaz'd you.</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">Very like, very like. Stay&rsquo;d it long?</p>
+    <p className="word-split">Very like, very like. Stay'd it long?</p>
 
     <p className="character-name">HORATIO.</p>
     <p className="word-split">
@@ -516,39 +470,35 @@ const Act1Scene2 = () => (
     <p className="word-split">Longer, longer.</p>
 
     <p className="character-name">HORATIO.</p>
-    <p className="word-split">Not when I saw&rsquo;t.</p>
+    <p className="word-split">Not when I saw't.</p>
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">His beard was grizzled, no?</p>
 
     <p className="character-name">HORATIO.</p>
     <p className="word-split">It was, as I have seen it in his life,</p>
-    <p className="word-split">A sable silver&rsquo;d.</p>
+    <p className="word-split">A sable silver'd.</p>
 
     <p className="character-name">HAMLET.</p>
     <p className="word-split">I will watch tonight;</p>
-    <p className="word-split">Perchance &rsquo;twill walk again.</p>
+    <p className="word-split">Perchance 'twill walk again.</p>
 
     <p className="character-name">HORATIO.</p>
     <p className="word-split">I warrant you it will.</p>
 
     <p className="character-name">HAMLET.</p>
-    <p className="word-split">If it assume my noble father&rsquo;s person,</p>
+    <p className="word-split">If it assume my noble father's person,</p>
     <p className="word-split">
-      I&rsquo;ll speak to it, though hell itself should gape
+      I'll speak to it, though hell itself should gape
     </p>
     <p className="word-split">And bid me hold my peace. I pray you all,</p>
-    <p className="word-split">
-      If you have hitherto conceal&rsquo;d this sight,
-    </p>
+    <p className="word-split">If you have hitherto conceal'd this sight,</p>
     <p className="word-split">Let it be tenable in your silence still;</p>
     <p className="word-split">And whatsoever else shall hap tonight,</p>
     <p className="word-split">Give it an understanding, but no tongue.</p>
     <p className="word-split">I will requite your loves. So, fare ye well.</p>
-    <p className="word-split">
-      Upon the platform &rsquo;twixt eleven and twelve,
-    </p>
-    <p className="word-split">I&rsquo;ll visit you.</p>
+    <p className="word-split">Upon the platform 'twixt eleven and twelve,</p>
+    <p className="word-split">I'll visit you.</p>
 
     <p className="character-name">ALL.</p>
     <p className="word-split">Our duty to your honour.</p>
@@ -558,9 +508,7 @@ const Act1Scene2 = () => (
 
     <p className="stage-direction">[Exeunt Horatio, Marcellus and Barnardo.]</p>
 
-    <p className="word-split">
-      My father&rsquo;s spirit in arms! All is not well;
-    </p>
+    <p className="word-split">My father's spirit in arms! All is not well;</p>
     <p className="word-split">
       I doubt some foul play: would the night were come!
     </p>
@@ -568,7 +516,7 @@ const Act1Scene2 = () => (
       Till then sit still, my soul: foul deeds will rise,
     </p>
     <p className="word-split">
-      Though all the earth o&rsquo;erwhelm them, to men&rsquo;s eyes.
+      Though all the earth o'erwhelm them, to men's eyes.
     </p>
 
     <p className="stage-direction">[Exit.]</p>
