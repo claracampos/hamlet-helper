@@ -2,6 +2,7 @@ import axios from "axios";
 import getDefinitionText from "./getDefinitionText";
 
 const getDefinition = async (e, setState) => {
+  e.preventDefault();
   if (e.target.nodeName === "SPAN") {
     const word = e.target.innerText.toLowerCase();
     try {
