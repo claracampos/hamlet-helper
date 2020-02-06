@@ -1,3 +1,26 @@
 .character-name {
-  font-style: italic;
+  color: red;
+  margin-top: 1rem;
+}
+
+.stage-direction {
+  color: blue;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.main-text-container {
+  height: 85%;
+}
+
+.dictionary-container {
+  height: 15%;
+}
+
+p {
+  margin: 0;
 }
