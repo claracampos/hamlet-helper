@@ -18,10 +18,15 @@ const getDefinitionText = response => {
           ? ` ${item.fl}: ${item.shortdef[0]}`
           : ` ${item.fl}: ${item.cxs[0].cxl} ${item.cxs[0].cxtis[0].cxt}`;
       }
-      return item.cxs[0].cxtis[0].cxt
-        ? ` ${item.cxs[0].cxl} ${item.cxs[0].cxtis[0].cxt}`
-        : ` ${item.cxs[0].cxl}`;
+      if (item.cxs[0].cxl && item.cxs[0].cxtis[0].cxt) {
+        return `${item.cxs[0].cxl} ${item.cxs[0].cxtis[0].cxt}`;
+      }
+      if (item.cxs[0].cxtis[0].cxl && item.cxs[0].cxtis[0].cxt) {
+        return `${item.cxs[0].cxtis[0].cxl} ${item.cxs[0].cxtis[0].cxt}`;
+      }
+      return `${item.cxs[0].cxl}`;
     });
+    console.log(matchingDefinitions);
 
     const definitionText = `${headword} - ${matchingDefinitions}`;
     return definitionText;
