@@ -31,13 +31,13 @@ const Homepage = () => {
       </div>
       <div className="text-center my-4 d-flex flex-row flex-wrap justify-content-center">
         <img
-          class="skull-image"
+          className="skull-image m-3"
           src={skull}
           alt="Illustration of a human skull with an asterisk next to it"
           onClick={() => setShowDefinition(!showDefiniton)}
         />
         {showDefiniton && (
-          <div className="skull-definition text-justify text-white p-3 m-3 shadow">
+          <div className="skull-definition text-justify text-white p-3 shadow">
             <p className="h4">skull</p>
             <p>
               <i>noun:</i> the skeleton of the head of a vertebrate forming a
