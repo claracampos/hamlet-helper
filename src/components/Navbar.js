@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" href="/">
       Hamlet Helper
     </a>
     <button
@@ -20,19 +20,19 @@ const Navbar = () => (
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="/about">
             About
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="/help">
             Help
           </a>
         </li>
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
-            href="#"
+            href="/"
             id="navbarDropdown"
             role="button"
             data-toggle="dropdown"
@@ -42,12 +42,23 @@ const Navbar = () => (
             Read
           </a>
           <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="/act1">
               Act I
             </a>
-            <div className="dropdown-divider"></div>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="/act2">
               Act II
+            </a>
+            <a className="dropdown-item" href="/act3">
+              Act III
+            </a>
+            <a className="dropdown-item" href="/act4">
+              Act IV
+            </a>
+            <a className="dropdown-item" href="/act5">
+              Act V
+            </a>
+            <a className="dropdown-item" href="/dramatis-personae">
+              Dramatis Personae
             </a>
           </div>
         </li>
