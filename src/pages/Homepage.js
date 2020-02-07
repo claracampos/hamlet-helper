@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import will from "../media/will.jpg";
 import skull from "../media/skull.jpg";
+import TableofContents from "../components/TableOfContents";
 
 const Homepage = () => {
   const [showDefiniton, setShowDefinition] = useState(false);
 
   return (
-    <div className="d-flex flex-column text-center justify-content-center bg-yellow">
+    <div className="d-flex flex-column text-center justify-content-center bg-yellow px-3">
       <div className="text-center">
         <img
           class="main-image"
@@ -14,12 +15,12 @@ const Homepage = () => {
           alt='William Shakespeare with sunglasses on and the words "Hamlet Helper" overlaid.'
         />
       </div>
-      <div className="mt-3 px-1">
+      <div className="mt-3">
         <h2>
           Shakespeare's <i>Hamlet</i> with an embedded dictionary.
         </h2>
       </div>
-      <div className="px-3 d-flex flex-column justify-content-center">
+      <div className="d-flex flex-column justify-content-center">
         <p className="align-self-center text-justify">
           No idea what good old Will was saying? No problem!
           <b> Click the word and the definition will appear.</b>
@@ -56,6 +57,7 @@ const Homepage = () => {
           </div>
         )}
       </div>
+      <TableofContents />
     </div>
   );
 };
