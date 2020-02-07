@@ -13,14 +13,23 @@
   height: 90vh;
 }
 
-.main-text-container {
-  height: 85%;
+.bg-yellow {
+  background-color: rgb(255, 230, 0);
 }
 
-.dictionary-container {
-  height: 15%;
+.skull-definition {
+  background-color: rgb(255, 0, 128);
+  max-width: 540px;
 }
 
+.main-image {
+  max-height: 80vh;
+  max-width: 90%;
+}
+
+.skull-image {
+  max-width: 180px;
+}
 p {
   margin: 0;
 }
