@@ -13,8 +13,16 @@
   height: 90vh;
 }
 
+.text-black {
+  color: black;
+}
+
 .bg-yellow {
   background-color: rgb(255, 230, 0);
+}
+
+.bg-pink {
+  background-color: rgb(255, 0, 128);
 }
 
 .skull-definition {
@@ -22,6 +30,10 @@
   max-width: 540px;
 }
 
+.table-contents {
+  width: 20rem;
+  max-width: 100%;
+}
 .main-image {
   max-height: 80vh;
   max-width: 90%;
