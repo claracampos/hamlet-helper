@@ -1,9 +1,9 @@
 import React from "react";
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="navbar-brand" href="/">
-      Hamlet Helper
+  <nav className="navbar navbar-expand-lg navbar-light bg-yellow">
+    <a className="navbar-brand font-weight-bold " href="/">
+      H.H.
     </a>
     <button
       className="navbar-toggler"
