@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import getDefinition from "../utils/getDefinition";
+import DictionaryDisplay from "../components/DictionaryDisplay";
 
 const TextPage = props => {
   const [dictionary, setDictionary] = useState({
@@ -21,17 +22,7 @@ const TextPage = props => {
           {props.scene}
         </div>
       </div>
-      <footer className="footer mt-auto h-50 overflow-auto bg-light p-2">
-        <p>{dictionary.definition}</p>
-        {dictionary.definition && (
-          <a
-            href={`https://www.merriam-webster.com/dictionary/${dictionary.word}`}
-            target="blank"
-          >
-            View more
-          </a>
-        )}
-      </footer>
+      <DictionaryDisplay dictionary={dictionary} />
     </div>
   );
 };
