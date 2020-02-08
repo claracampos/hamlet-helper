@@ -1,5 +1,5 @@
 import axios from "axios";
-import getDefinitionText from "./getDefinitionText";
+import processResponse from "./processResponse";
 
 const getDefinition = async (e, setState) => {
   e.preventDefault();
@@ -13,7 +13,7 @@ const getDefinition = async (e, setState) => {
     try {
       const response = await axios.get(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${process.env.REACT_APP_KEY}
       `);
-      const definition = getDefinitionText(response);
+      const definition = processResponse(response);
       console.log(response);
       setState({ word: word, definition: definition });
     } catch (error) {
