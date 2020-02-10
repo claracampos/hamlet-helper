@@ -10,7 +10,7 @@ const Homepage = () => {
     <div className="d-flex flex-column text-center justify-content-center bg-yellow px-3">
       <div className="text-center">
         <img
-          class="main-image"
+          className="main-image"
           src={will}
           alt='William Shakespeare with sunglasses on and the words "Hamlet Helper" overlaid.'
         />
