@@ -14,7 +14,9 @@ const processResponse = response => {
     if (offensiveContent) {
       return {
         word: headword,
-        definition: `the list of definitions for this word includes sensitive or offensive content. Click "View More" to read definitions.`
+        definition: [
+          `the list of definitions for this word includes sensitive or offensive content. Click "View More" to read definitions.`
+        ]
       };
     }
 
