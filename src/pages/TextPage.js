@@ -9,7 +9,7 @@ const TextPage = props => {
   });
 
   return (
-    <div className="d-flex flex-column vh-100">
+    <div className="d-flex flex-column">
       <div className="overflow-auto text-container bg-white p-3">
         <div
           onTouchStart={e => {
