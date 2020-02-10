@@ -10,7 +10,7 @@ const TextPage = props => {
 
   return (
     <div className="d-flex flex-column vh-100">
-      <div className="overflow-auto h-50 p-2">
+      <div className="overflow-auto text-container bg-white p-3">
         <div
           onTouchStart={e => {
             getDefinition(e, setDictionary);
@@ -18,6 +18,7 @@ const TextPage = props => {
           onClick={e => {
             getDefinition(e, setDictionary);
           }}
+          className="max-480"
         >
           {props.scene}
         </div>
