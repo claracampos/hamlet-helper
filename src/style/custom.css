@@ -1,3 +1,11 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: rgb(255, 230, 0);
+}
+
 .character-name {
   color: gray;
   font-weight: bold;
@@ -24,6 +32,10 @@
 
 .text-black {
   color: black;
+}
+
+.text-white {
+  color: white;
 }
 
 .bg-gray {
@@ -56,12 +68,9 @@
   max-width: 180px;
 }
 
-.dictionary-container {
-  height: 40%;
-}
-
 .text-container {
-  height: 60%;
+  height: 60vh;
+  width: 100%;
 }
 
 .max-480 {
