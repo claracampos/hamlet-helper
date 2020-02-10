@@ -1,12 +1,3 @@
-html {
-  height: 100vh;
-}
-
-body {
-  background-color: rgb(255, 230, 0);
-  height: 100%;
-}
-
 .character-name {
   color: gray;
   font-weight: bold;
@@ -76,12 +67,4 @@ body {
 
 .max-480 {
   max-width: 480px;
-}
-
-p {
-  margin: 0;
-}
-
-li {
-  line-height: 1.2rem;
 }
