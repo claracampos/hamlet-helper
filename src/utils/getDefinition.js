@@ -18,7 +18,10 @@ const getDefinition = async (e, setState) => {
         definition: APIDefinitions.definition
       });
     } catch (error) {
-      console.error(error);
+      setState({
+        word: "error",
+        definition: ""
+      });
     }
   }
 };
