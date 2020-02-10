@@ -5,793 +5,814 @@ const Act5Scene2 = () => (
     <h2>ACT V</h2>
     <h3>SCENE II. A hall in the Castle.</h3>
     <p
-      class="stage-direction word-split"
+      className="stage-direction word-split"
       aria-label=" Enter Hamlet and Horatio."
     >
-      <span class="word1" aria-hidden="true"></span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word1" aria-hidden="true"></span>{" "}
+      <span className="word2" aria-hidden="true">
         Enter
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         Hamlet
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         and
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         Horatio.
       </span>{" "}
     </p>
-    <p class="character-name">HAMLET.</p>
+    <p className="character-name">HAMLET.</p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="So much for this, sir. Now let me see the other;"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         So
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         much
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         for
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         this,
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         sir.
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         Now
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         let
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         me
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         see
       </span>{" "}
-      <span class="word10" aria-hidden="true">
+      <span className="word10" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word11" aria-hidden="true">
+      <span className="word11" aria-hidden="true">
         other;
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="You do remember all the circumstance?">
-      <span class="word1" aria-hidden="true">
+    <p
+      className="word-split"
+      aria-label="You do remember all the circumstance?"
+    >
+      <span className="word1" aria-hidden="true">
         You
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         do
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         remember
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         all
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         circumstance?
       </span>{" "}
     </p>
-    <p class="character-name">HORATIO.</p>
-    <p class="word-split" aria-label="Remember it, my lord!">
-      <span class="word1" aria-hidden="true">
+    <p className="character-name">HORATIO.</p>
+    <p className="word-split" aria-label="Remember it, my lord!">
+      <span className="word1" aria-hidden="true">
         Remember
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         it,
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         my
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         lord!
       </span>{" "}
     </p>
-    <p class="character-name">HAMLET.</p>
+    <p className="character-name">HAMLET.</p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Sir, in my heart there was a kind of fighting"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Sir,
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         in
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         my
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         heart
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         there
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         was
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         a
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         kind
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         of
       </span>{" "}
-      <span class="word10" aria-hidden="true">
+      <span className="word10" aria-hidden="true">
         fighting
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="That would not let me sleep. Methought I lay"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         That
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         would
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         not
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         let
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         me
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         sleep.
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         Methought
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         I
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         lay
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Worse than the mutinies in the bilboes. Rashly,"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Worse
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         than
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         mutinies
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         in
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         bilboes.
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         Rashly,
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="And prais'd be rashness for it, -- let us know,"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         And
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         prais'd
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         be
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         rashness
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         for
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         it,
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         --
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         let
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         us
       </span>{" "}
-      <span class="word10" aria-hidden="true">
+      <span className="word10" aria-hidden="true">
         know,
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Our indiscretion sometime serves us well,"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Our
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         indiscretion
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         sometime
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         serves
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         us
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         well,
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="When our deep plots do pall; and that should teach us"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         When
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         our
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         deep
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         plots
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         do
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         pall;
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         and
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         that
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         should
       </span>{" "}
-      <span class="word10" aria-hidden="true">
+      <span className="word10" aria-hidden="true">
         teach
       </span>{" "}
-      <span class="word11" aria-hidden="true">
+      <span className="word11" aria-hidden="true">
         us
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="There's a divinity that shapes our ends,">
-      <span class="word1" aria-hidden="true">
+    <p
+      className="word-split"
+      aria-label="There's a divinity that shapes our ends,"
+    >
+      <span className="word1" aria-hidden="true">
         There's
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         a
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         divinity
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         that
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         shapes
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         our
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         ends,
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="Rough-hew them how we will.">
-      <span class="word1" aria-hidden="true">
+    <p className="word-split" aria-label="Rough-hew them how we will.">
+      <span className="word1" aria-hidden="true">
         Rough-hew
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         them
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         how
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         we
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         will.
       </span>{" "}
     </p>
-    <p class="character-name">HORATIO.</p>
-    <p class="word-split" aria-label="That is most certain.">
-      <span class="word1" aria-hidden="true">
+    <p className="character-name">HORATIO.</p>
+    <p className="word-split" aria-label="That is most certain.">
+      <span className="word1" aria-hidden="true">
         That
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         is
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         most
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         certain.
       </span>{" "}
     </p>
-    <p class="character-name">HAMLET.</p>
-    <p class="word-split" aria-label="Up from my cabin,">
-      <span class="word1" aria-hidden="true">
+    <p className="character-name">HAMLET.</p>
+    <p className="word-split" aria-label="Up from my cabin,">
+      <span className="word1" aria-hidden="true">
         Up
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         from
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         my
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         cabin,
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="My sea-gown scarf'd about me, in the dark"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         My
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         sea-gown
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         scarf'd
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         about
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         me,
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         in
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         dark
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Grop'd I to find out them; had my desire,"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Grop'd
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         I
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         to
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         find
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         out
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         them;
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         had
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         my
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         desire,
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Finger'd their packet, and in fine, withdrew"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Finger'd
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         their
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         packet,
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         and
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         in
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         fine,
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         withdrew
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="To mine own room again, making so bold,">
-      <span class="word1" aria-hidden="true">
+    <p
+      className="word-split"
+      aria-label="To mine own room again, making so bold,"
+    >
+      <span className="word1" aria-hidden="true">
         To
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         mine
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         own
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         room
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         again,
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         making
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         so
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         bold,
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="My fears forgetting manners, to unseal">
-      <span class="word1" aria-hidden="true">
+    <p
+      className="word-split"
+      aria-label="My fears forgetting manners, to unseal"
+    >
+      <span className="word1" aria-hidden="true">
         My
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         fears
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         forgetting
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         manners,
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         to
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         unseal
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Their grand commission; where I found, Horatio,"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Their
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         grand
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         commission;
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         where
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         I
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         found,
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         Horatio,
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="Oh royal knavery! an exact command,">
-      <span class="word1" aria-hidden="true">
+    <p className="word-split" aria-label="Oh royal knavery! an exact command,">
+      <span className="word1" aria-hidden="true">
         Oh
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         royal
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         knavery!
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         an
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         exact
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         command,
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Larded with many several sorts of reasons,"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Larded
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         with
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         many
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         several
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         sorts
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         of
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         reasons,
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Importing Denmark's health, and England's too,"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Importing
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         Denmark's
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         health,
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         and
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         England's
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         too,
       </span>{" "}
     </p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="With ho! such bugs and goblins in my life,"
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         With
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         ho!
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         such
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         bugs
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         and
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         goblins
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         in
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         my
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         life,
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="That on the supervise, no leisure bated,">
-      <span class="word1" aria-hidden="true">
+    <p
+      className="word-split"
+      aria-label="That on the supervise, no leisure bated,"
+    >
+      <span className="word1" aria-hidden="true">
         That
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         on
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         supervise,
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         no
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         leisure
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         bated,
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="No, not to stay the grinding of the axe,">
-      <span class="word1" aria-hidden="true">
+    <p
+      className="word-split"
+      aria-label="No, not to stay the grinding of the axe,"
+    >
+      <span className="word1" aria-hidden="true">
         No,
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         not
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         to
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         stay
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         grinding
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         of
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         axe,
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="My head should be struck off.">
-      <span class="word1" aria-hidden="true">
+    <p className="word-split" aria-label="My head should be struck off.">
+      <span className="word1" aria-hidden="true">
         My
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         head
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         should
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         be
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         struck
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         off.
       </span>{" "}
     </p>
-    <p class="character-name">HORATIO.</p>
-    <p class="word-split" aria-label="Is't possible?">
-      <span class="word1" aria-hidden="true">
+    <p className="character-name">HORATIO.</p>
+    <p className="word-split" aria-label="Is't possible?">
+      <span className="word1" aria-hidden="true">
         Is't
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         possible?
       </span>{" "}
     </p>
-    <p class="character-name">HAMLET.</p>
+    <p className="character-name">HAMLET.</p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Here's the commission, read it at more leisure."
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Here's
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         the
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         commission,
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         read
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         it
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         at
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         more
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         leisure.
       </span>{" "}
     </p>
-    <p class="word-split" aria-label="But wilt thou hear me how I did proceed?">
-      <span class="word1" aria-hidden="true">
+    <p
+      className="word-split"
+      aria-label="But wilt thou hear me how I did proceed?"
+    >
+      <span className="word1" aria-hidden="true">
         But
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         wilt
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         thou
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         hear
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         me
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         how
       </span>{" "}
-      <span class="word7" aria-hidden="true">
+      <span className="word7" aria-hidden="true">
         I
       </span>{" "}
-      <span class="word8" aria-hidden="true">
+      <span className="word8" aria-hidden="true">
         did
       </span>{" "}
-      <span class="word9" aria-hidden="true">
+      <span className="word9" aria-hidden="true">
         proceed?
       </span>{" "}
     </p>
-    <p class="character-name">HORATIO.</p>
-    <p class="word-split" aria-label="I beseech you.">
-      <span class="word1" aria-hidden="true">
+    <p className="character-name">HORATIO.</p>
+    <p className="word-split" aria-label="I beseech you.">
+      <span className="word1" aria-hidden="true">
         I
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         beseech
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         you.
       </span>{" "}
     </p>
-    <p class="character-name">HAMLET.</p>
+    <p className="character-name">HAMLET.</p>
     <p
-      class="word-split"
+      className="word-split"
       aria-label="Being thus benetted round with villanies, -- "
     >
-      <span class="word1" aria-hidden="true">
+      <span className="word1" aria-hidden="true">
         Being
       </span>{" "}
-      <span class="word2" aria-hidden="true">
+      <span className="word2" aria-hidden="true">
         thus
       </span>{" "}
-      <span class="word3" aria-hidden="true">
+      <span className="word3" aria-hidden="true">
         benetted
       </span>{" "}
-      <span class="word4" aria-hidden="true">
+      <span className="word4" aria-hidden="true">
         round
       </span>{" "}
-      <span class="word5" aria-hidden="true">
+      <span className="word5" aria-hidden="true">
         with
       </span>{" "}
-      <span class="word6" aria-hidden="true">
+      <span className="word6" aria-hidden="true">
         villanies,
       </span>{" "}
       <span class="word7" aria-hidden="true">
