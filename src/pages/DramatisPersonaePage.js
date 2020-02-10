@@ -1,8 +1,10 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 const DramatisPersonaePage = () => (
-  <div>
-    <h1>Dramatis Personae</h1>
+  <div className="bg-yellow p-5 d-flex flex-column align-items-center">
+    <h1 className="mb-4 font-italic">Dramatis Personae</h1>
     <ul>
       <li>HAMLET, Prince of Denmark.</li>
       <li>CLAUDIUS, King of Denmark, Hamlet’s uncle.</li>
@@ -32,6 +34,9 @@ const DramatisPersonaePage = () => (
         Lords, Ladies, Officers, Soldiers, Sailors, Messengers, and Attendants.
       </li>
     </ul>
+    <Link to="/" className="btn btn-dark font-italic mt-4">
+      Go home
+    </Link>
   </div>
 );
 
