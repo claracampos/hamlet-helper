@@ -5,11 +5,15 @@ const DictionaryDisplay = props => {
 
   if (word === "error") {
     return (
-      <footer className="footer mt-auto overflow-auto bg-gray p-3">
+      <footer className="footer mt-auto overflow-auto bg-yellow p-3">
         <p>
           <b>Oh no!</b> We couldn't find a definition for that word.
         </p>
-        <a href={`https://www.merriam-webster.com/`} target="blank">
+        <a
+          href={`https://www.merriam-webster.com/`}
+          target="blank"
+          className="text-danger"
+        >
           Go to Merriam Webster?
         </a>
       </footer>
