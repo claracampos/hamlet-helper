@@ -2,8 +2,8 @@ import React from "react";
 
 const Act1Scene5 = () => (
   <div>
-    <h2>ACT I</h2>
-    <h3>SCENE V. A more remote part of the Castle.</h3>
+    <h2 className="text-title">ACT I</h2>
+    <h3 className="text-title">SCENE V. A more remote part of the Castle.</h3>
     <p class="stage-direction word-split" aria-label="Enter Ghost and Hamlet.">
       <span class="word1" aria-hidden="true">
         Enter

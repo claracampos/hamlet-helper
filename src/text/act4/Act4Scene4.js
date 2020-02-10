@@ -2,8 +2,8 @@ import React from "react";
 
 const Act4Scene4 = () => (
   <div>
-    <h2>ACT IV</h2>
-    <h3>SCENE IV. A plain in Denmark.</h3>
+    <h2 className="text-title">ACT IV</h2>
+    <h3 className="text-title">SCENE IV. A plain in Denmark.</h3>
     <p
       class="stage-direction word-split"
       aria-label=" Enter Fortinbras and Forces marching."

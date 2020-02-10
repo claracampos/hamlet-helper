@@ -2,8 +2,8 @@ import React from "react";
 
 const Act1Scene4 = () => (
   <div>
-    <h2>ACT I</h2>
-    <h3>SCENE IV. The platform.</h3>
+    <h2 className="text-title">ACT I</h2>
+    <h3 className="text-title">SCENE IV. The platform.</h3>
     <p
       className="stage-direction word-split"
       aria-label="Enter Hamlet, Horatio and Marcellus."

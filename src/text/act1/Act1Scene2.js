@@ -2,8 +2,10 @@ import React from "react";
 
 const Act1Scene2 = () => (
   <div>
-    <h2>ACT I</h2>
-    <h3>SCENE II. Elsinore. A room of state in the Castle.</h3>
+    <h2 className="text-title">ACT I</h2>
+    <h3 className="text-title">
+      SCENE II. Elsinore. A room of state in the Castle.
+    </h3>
     <p
       className="stage-direction word-split"
       aria-label="[Enter Claudius King of Denmark, Gertrude the Queen, Hamlet, Polonius, Laertes, Voltemand, Cornelius, Lords and Attendant.]"

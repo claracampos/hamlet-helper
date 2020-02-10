@@ -2,8 +2,8 @@ import React from "react";
 
 const Act5Scene1 = () => (
   <div>
-    <h2>ACT V</h2>
-    <h3>SCENE I. A churchyard.</h3>
+    <h2 className="text-title">ACT V</h2>
+    <h3 className="text-title">SCENE I. A churchyard.</h3>
     <p
       className="stage-direction word-split"
       aria-label=" Enter two Clowns with spades, et cetera."
