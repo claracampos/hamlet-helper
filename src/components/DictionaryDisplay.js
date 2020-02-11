@@ -14,7 +14,7 @@ const DictionaryDisplay = props => {
           target="blank"
           className="text-danger"
         >
-          Go to Merriam Webster?
+          Go to Merriam-Webster?
         </a>
       </footer>
     );
