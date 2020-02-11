@@ -24,11 +24,6 @@ const Navbar = () => (
             About
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/help">
-            Help
-          </a>
-        </li>
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"

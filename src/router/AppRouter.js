@@ -4,7 +4,6 @@ import Homepage from "../pages/Homepage";
 import DramatisPersonaePage from "../pages/DramatisPersonaePage";
 import NotFoundPage from "../pages/NotFoundPage";
 import AboutPage from "../pages/AboutPage";
-import HelpPage from "../pages/HelpPage";
 import TextPage from "../pages/TextPage";
 import ActPage from "../pages/ActPage";
 import Act1Scene1 from "../text/act1/Act1Scene1";
@@ -36,9 +35,6 @@ const AppRouter = () => (
       </Route>
       <Route exact path="/about">
         <AboutPage />
-      </Route>
-      <Route exact path="/help">
-        <HelpPage />
       </Route>
       <Route exact path="/dramatis-personae">
         <DramatisPersonaePage />
