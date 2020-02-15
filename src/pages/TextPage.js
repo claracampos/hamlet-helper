@@ -20,16 +20,18 @@ const TextPage = props => {
             </i>
           </p>
         </div>
-        <div
-          onTouchStart={e => {
-            getDefinition(e, setDictionary);
-          }}
-          onClick={e => {
-            getDefinition(e, setDictionary);
-          }}
-          className="max-480 p-3"
-        >
-          {props.scene}
+        <div className="d-flex flex-column align-items-center">
+          <div
+            onTouchStart={e => {
+              getDefinition(e, setDictionary);
+            }}
+            onClick={e => {
+              getDefinition(e, setDictionary);
+            }}
+            className="max-480 p-3"
+          >
+            {props.scene}
+          </div>
         </div>
       </div>
       <DictionaryDisplay dictionary={dictionary} />
