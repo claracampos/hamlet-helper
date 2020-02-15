@@ -6,7 +6,9 @@ const processResponse = response => {
     }
 
     const matchingWords = response.data.filter(
-      item => item.hwi.hw.toLowerCase() === headword
+      item =>
+        item.hwi.hw.toLowerCase() === headword &&
+        item.fl !== "biographical name"
     );
 
     const offensiveContent = matchingWords.find(item => item.meta.offensive);
@@ -34,7 +36,6 @@ const processResponse = response => {
       }
       return `${item.cxs[0].cxl}`;
     });
-    console.log(matchingDefinitions);
 
     const APIdefinitions = { word: headword, definition: matchingDefinitions };
     return APIdefinitions;
