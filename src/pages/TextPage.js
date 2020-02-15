@@ -28,13 +28,15 @@ const TextPage = props => {
             onClick={e => {
               getDefinition(e, setDictionary);
             }}
-            className="max-480 p-3"
+            className="text-width p-3"
           >
             {props.scene}
           </div>
         </div>
       </div>
-      <DictionaryDisplay dictionary={dictionary} />
+      <div className="d-flex flex-column align-items-center">
+        <DictionaryDisplay dictionary={dictionary} />
+      </div>
     </div>
   );
 };
