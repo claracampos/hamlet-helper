@@ -69,8 +69,8 @@
   width: 100%;
 }
 
-.max-480 {
-  max-width: 480px;
+.text-width {
+  max-width: 30rem;
 }
 
 .photo {
@@ -84,4 +84,10 @@
 .about-heading {
   max-width: 6rem;
   margin: 1.2rem 0 0.3rem 0;
+}
+
+@media (min-width: 576px) {
+  .dictionary-width {
+    width: 567px;
+  }
 }
