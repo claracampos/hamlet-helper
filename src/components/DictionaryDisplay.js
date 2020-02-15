@@ -5,7 +5,7 @@ const DictionaryDisplay = props => {
 
   if (word === "error" || definition.length === 0) {
     return (
-      <footer className="footer mt-auto overflow-auto bg-yellow p-3">
+      <footer className="footer mt-auto overflow-auto bg-yellow p-3 dictionary-width">
         <p>
           <b>Oh no!</b> We couldn't find a definition for that word.
         </p>
@@ -21,7 +21,7 @@ const DictionaryDisplay = props => {
   }
 
   return (
-    <footer className="footer mt-auto overflow-auto bg-yellow p-3">
+    <footer className="footer mt-auto overflow-auto bg-yellow p-3 dictionary-width">
       {word && <p className="font-weight-bold">{word}</p>}
       {definition && (
         <div>
