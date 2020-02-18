@@ -16,7 +16,7 @@ const TextPage = props => {
             <i>
               Click on a word to display its meaning below.
               <br />
-              (This feature does not apply to scene titles and character cues.)
+              (This feature does not apply to scene titles and dialogue cues.)
             </i>
           </p>
         </div>
