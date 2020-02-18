@@ -37,6 +37,10 @@ const processResponse = response => {
       return `${item.cxs[0].cxl}`;
     });
 
+    if (matchingDefinitions.length === 0) {
+      throw Error;
+    }
+
     const APIdefinitions = { word: headword, definition: matchingDefinitions };
     return APIdefinitions;
   }
