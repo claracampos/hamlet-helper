@@ -3,7 +3,7 @@ import React from "react";
 const DictionaryDisplay = props => {
   const { word, definition } = props.dictionary;
 
-  if (word === "error" || definition.length === 0) {
+  if (word === "error") {
     return (
       <footer className="footer mt-auto overflow-auto bg-yellow p-3 dictionary-width">
         <p>
