@@ -12,7 +12,7 @@ const TableofContents = () => (
       Dramatis Personae
     </Link>
     {listOfContents.map(act => (
-      <div className="dropdown">
+      <div className="dropdown" key={act.path}>
         <button
           className="btn btn-outline-dark text-black font-weight-bold mb-2 dropdown-toggle w-100"
           type="button"
@@ -28,6 +28,7 @@ const TableofContents = () => (
             <Link
               to={`/${act.path}/scene${index + 1}`}
               className="dropdown-item"
+              key={`scene${index + 1}`}
             >{`Scene ${index + 1}`}</Link>
           ))}
         </div>

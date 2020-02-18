@@ -13,6 +13,7 @@ const ActPage = props => {
             <Link
               to={`/${act.path}/scene${index + 1}`}
               className="btn btn-outline-dark text-black font-weight-bold mb-2"
+              key={`scene${index + 1}`}
             >
               {item}
             </Link>
