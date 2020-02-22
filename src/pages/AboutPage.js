@@ -70,9 +70,18 @@ const AboutPage = () => (
             href="https://claralearnstocode.wordpress.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-1"
+            className="mr-1 ml-1"
           >
             Blog
+          </a>
+          |
+          <a
+            href="https://claracampos.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-1"
+          >
+            Website
           </a>
         </p>
       </div>
