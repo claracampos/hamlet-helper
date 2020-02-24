@@ -40,19 +40,19 @@ const Navbar = () => (
             className="dropdown-menu bg-yellow"
             aria-labelledby="navbarDropdown"
           >
-            <a className="dropdown-item" href="/act1">
+            <a className="dropdown-item" href="/act/1">
               Act I
             </a>
-            <a className="dropdown-item" href="/act2">
+            <a className="dropdown-item" href="/act/2">
               Act II
             </a>
-            <a className="dropdown-item" href="/act3">
+            <a className="dropdown-item" href="/act/3">
               Act III
             </a>
-            <a className="dropdown-item" href="/act4">
+            <a className="dropdown-item" href="/act/4">
               Act IV
             </a>
-            <a className="dropdown-item" href="/act5">
+            <a className="dropdown-item" href="/act/5">
               Act V
             </a>
             <a className="dropdown-item" href="/dramatis-personae">
