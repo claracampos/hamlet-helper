@@ -1,8 +1,12 @@
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 import getDefinition from "../utils/getDefinition";
+import renderText from "../utils/renderText";
 import DictionaryDisplay from "../components/DictionaryDisplay";
 
-const TextPage = props => {
+const TextPage = () => {
+  const { act, scene } = useParams();
+
   const [dictionary, setDictionary] = useState({
     word: "",
     definition: ""
@@ -30,7 +34,7 @@ const TextPage = props => {
             }}
             className="text-width p-3"
           >
-            {props.scene}
+            {renderText(act, scene)}
           </div>
         </div>
       </div>
