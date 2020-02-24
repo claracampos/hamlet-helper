@@ -9,7 +9,8 @@ const TextPage = () => {
 
   const [dictionary, setDictionary] = useState({
     word: "",
-    definition: ""
+    definition: "",
+    error: false
   });
 
   return (
