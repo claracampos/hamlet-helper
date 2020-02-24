@@ -1,3 +1,5 @@
+//API reference: https://www.dictionaryapi.com/products/json#sec-2
+
 const processResponse = response => {
   if (response.data[0]) {
     const headword = response.data[0].hwi.hw.toLowerCase();
@@ -18,7 +20,8 @@ const processResponse = response => {
         word: headword,
         definition: [
           `the list of definitions for this word includes sensitive or offensive content. Click "View More" to read definitions.`
-        ]
+        ],
+        error: false
       };
     }
 
@@ -41,7 +44,11 @@ const processResponse = response => {
       throw Error;
     }
 
-    const APIdefinitions = { word: headword, definition: matchingDefinitions };
+    const APIdefinitions = {
+      word: headword,
+      definition: matchingDefinitions,
+      error: false
+    };
     return APIdefinitions;
   }
 };
