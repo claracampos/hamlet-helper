@@ -1,9 +1,9 @@
 import React from "react";
 
 const DictionaryDisplay = props => {
-  const { word, definition } = props.dictionary;
+  const { word, definition, error } = props.dictionary;
 
-  if (word === "error") {
+  if (error) {
     return (
       <footer className="footer mt-auto overflow-auto bg-yellow p-3 dictionary-width">
         <p>
