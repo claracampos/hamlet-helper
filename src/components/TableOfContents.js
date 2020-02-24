@@ -11,7 +11,7 @@ const TableofContents = () => (
     >
       Dramatis Personae
     </Link>
-    {listOfContents.map(act => (
+    {listOfContents.map((act, actIndex) => (
       <div className="dropdown" key={act.path}>
         <button
           className="btn btn-outline-dark text-black font-weight-bold mb-2 dropdown-toggle w-100"
@@ -24,12 +24,12 @@ const TableofContents = () => (
           {act.title}
         </button>
         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          {act.scenes.map((scene, index) => (
+          {act.scenes.map((scene, sceneIndex) => (
             <Link
-              to={`/${act.path}/scene${index + 1}`}
+              to={`/act/${actIndex + 1}/scene/${sceneIndex + 1}`}
               className="dropdown-item"
-              key={`scene${index + 1}`}
-            >{`Scene ${index + 1}`}</Link>
+              key={`scene${sceneIndex + 1}`}
+            >{`Scene ${sceneIndex + 1}`}</Link>
           ))}
         </div>
       </div>
