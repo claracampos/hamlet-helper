@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import will from "../media/will.jpg";
 import skull from "../media/skull.jpg";
-import TableofContents from "../components/TableOfContents";
+import TableOfContents from "../components/TableOfContents";
 
 const Homepage = () => {
   const [showDefiniton, setShowDefinition] = useState(false);
@@ -57,7 +57,7 @@ const Homepage = () => {
           </div>
         )}
       </div>
-      <TableofContents />
+      <TableOfContents />
     </div>
   );
 };
