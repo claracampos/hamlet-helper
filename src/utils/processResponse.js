@@ -27,9 +27,12 @@ const processResponse = response => {
 
     const matchingDefinitions = matchingWords.map(item => {
       if (item.fl) {
-        return item.shortdef[0]
-          ? ` ${item.fl}: ${item.shortdef[0]}`
-          : ` ${item.fl}: ${item.cxs[0].cxl} ${item.cxs[0].cxtis[0].cxt}`;
+        if (item.shortdef[0]) {
+          return item.shortdef[0].endsWith(": such as")
+            ? ` ${item.fl}: ${item.shortdef[0].replace(": such as", "")}`
+            : ` ${item.fl}: ${item.shortdef[0]}`;
+        }
+        return ` ${item.fl}: ${item.cxs[0].cxl} ${item.cxs[0].cxtis[0].cxt}`;
       }
       if (item.cxs[0].cxl && item.cxs[0].cxtis[0].cxt) {
         return `${item.cxs[0].cxl} ${item.cxs[0].cxtis[0].cxt}`;
